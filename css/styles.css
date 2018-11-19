@@ -46,8 +46,11 @@
 
        .navbar-toggler {
           background: url("../images/mobile_menu.png") no-repeat center center;
-          float: right;
           margin-right: 10px;
+          position: absolute;
+          right: 0;
+          top: 10px;
+
       }
 
       .logo {
@@ -104,3 +107,9 @@
           background: #333333;
           color: #fff;
        }
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    width: 100vw;
+  }
+}
