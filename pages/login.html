@@ -5,50 +5,57 @@
     <title>Login</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/logandsign.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/logandsign.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins" rel="stylesheet">
+    
 </head>
 <body>
 
-<div class="container">
-    <h1 class="text-center my-4"> Login </h1>
-    <form action="../index.html" method="post">
-        <div class="row">
-           <div class=" col-sm-2 col-md-3 col-lg-4"></div>
-            <div class="col-sm-9 col-md-6 col-lg-4">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+    <div class="container">
+        <div class="vertical-align">
+        <h1 class="text-center my-4"> Log<span>in</span>  </h1>
+        <form action="#">
+            <div class="row">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                        </div>
+                        <input class="form-control" type="text" name="email" placeholder ="Enter your Email" required>
                     </div>
-                    <input class="form-control" type="text" name="email" placeholder ="Enter your Email" required>
                 </div>
             </div>
-        </div>
-        <div class="row my-2">
-            <div class=" col-sm-2 col-md-3 col-lg-4"></div>
-            <div class="col-sm-9 col-md-6 col-lg-4 ">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text"><i class="fas fa-key"></i></div>
+            <div class="row my-2">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6 ">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-key"></i></div>
+                        </div>
+                    <input class="form-control" type="password" name="password" placeholder="Password" required>
                     </div>
-                <input class="form-control" type="password" name="password" placeholder="Password" required>
                 </div>
             </div>
-        </div>
-        <div class="row my-3">
-            <div class=" col-sm-2 col-md-3 col-lg-4"></div>
-            <div class="col-sm-9 col-md-6 col-lg-4">
-                <button id=btn type="submit" class="btn btn-success btn-block"> Login </button>
-            </div>
-        </div> 
-        <div class="row my-3">
-            <div class=" col-sm-2 col-md-3 col-lg-4"></div>
-            <div class="col-sm-9 col-md-6 col-lg-4">
-            	<a href="forget-password.html">forget your password?</a>
-            </div>
-        </div> 
-    </form>
- </div>
+            <div class="row my-3">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
+                    <button id=btn type="submit" class="btn btn-dark btn-block"> Login </button>
+                </div>
+            </div> 
+            <div class="row my-3">
+                <div class="lables col-sm-12 offset-md-3 col-md-6 col-lg-6">
+                    <p> <a href="forget-password.html"> <i class="fas fa-key"></i> Forget your password?</a></p>
+                    <p> <a href="signup.html"> <i class="fas fa-sign-in-alt"></i> Signup for free?</a></p>
+                </div>
+            </div> 
+            <div class="row mt-5">
+                    <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
+                        <a href="../index.html"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Back to Home</a>
+                    </div>
+                </div> 
+        </form>
+    </div>
+</div>
 </body>
 </html>

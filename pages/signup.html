@@ -1,41 +1,45 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Registration Form</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/logandsign.css">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/logandsign.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins" rel="stylesheet">
+        
 </head>
 <body>
 
 
     <div class="container">
-        <h1 class="text-center my-4"> Registration <span class="d-none d-sm-inline"> Form </span></h1>
+        <h1 class="text-center my-4"> Sign<span>up </span></h1>
          <form action="../index.html" method="POST">
             <div class="row">
-                <div class="d-none d-sm-inline col-sm-2 col-md-3 col-lg-4"> </div>
-                <div class="col-sm-9 col-md-6 col-lg-4">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
                     <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-user"></i></i></div>
+                        </div>
                         <input class="form-control" type="text" name="first_name" placeholder="first name" required>
                     </div>
                 </div>
             </div>
             <div class="row my-2">
-                <div class="d-none d-sm-inline col-sm-2 col-md-3 col-lg-4"></div>
-
-                <div class="col-sm-9 col-md-6 col-lg-4">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
                     <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fas fa-user"></i></i></div>
+                        </div>
                         <input class="form-control" type="text" name="last_name" placeholder="last name" required>
                     </div>
                 </div>
             </div>
             <div class="row my-2">
-                <div class="d-none d-sm-inline col-sm-2 col-md-3 col-lg-4"> </div>
-                <div class="col-sm-9 col-md-6 col-lg-4">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-calendar-alt"></i></i></div>
@@ -45,9 +49,7 @@
                 </div>
             </div>
             <div class="row my-2">
-                
-                <div class="d-none d-sm-inline col-sm-2 col-md-3 col-lg-4"> </div>
-                <div class="col-sm-9 col-md-6 col-lg-4">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fa fa-mars"></i></div>
@@ -60,8 +62,7 @@
                 </div>
             </div>
             <div class="row my-2">
-                 <div class="d-none d-sm-inline col-sm-2 col-md-3 col-lg-4"> </div>
-                <div class="col-sm-9 col-md-6 col-lg-4">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-envelope"></i></div>
@@ -71,8 +72,7 @@
                 </div>
             </div>
             <div class="row my-2">
-                 <div class="d-none d-sm-inline col-sm-2 col-md-3 col-lg-4"> </div>
-                <div class="col-sm-9 col-md-6 col-lg-4 ">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-key"></i></div>
@@ -82,8 +82,7 @@
                 </div>
             </div>
             <div class="row my-2">
-                 <div class="d-none d-sm-inline col-sm-2 col-md-3 col-lg-4"></div>
-                <div class="col-sm-9 col-md-6 col-lg-4 ">
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <div class="input-group-text"><i class="fas fa-key"></i></div>
@@ -93,11 +92,20 @@
                 </div>
             </div>
             <div class="row my-3">
-                <div class=" col-sm-2 col-md-3 col-lg-4"></div>
-                <div class="col-sm-9 col-md-6 col-lg-4">
-                    <button id=btn type="submit" class="btn btn-success btn-block"> Register </button>
+                <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
+                    <button id=btn type="submit" class="btn btn-dark btn-block"> Register </button>
                 </div>
             </div> 
+            <div class="row my-3">
+                <div class="lables col-sm-12 offset-md-3 col-md-6 col-lg-6">
+                    <p> <a href="login.html"> <i class="fas fa-sign-in-alt"></i> Already Have An Account?</a></p>
+                </div>
+            </div> 
+            <div class="row mt-5">
+                    <div class="col-sm-12 offset-md-3 col-md-6 col-lg-6">
+                        <a href="../index.html"><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Back to Home</a>
+                    </div>
+                </div> 
          </form>
 
      </div>
