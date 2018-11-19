@@ -94,18 +94,11 @@
          margin-left: 10px;
        }
 
-        .more-info {
-          font-size: 14px;
-        }
-
-        .more-info span {
-          color: blue;
-          text-decoration: underline;
-        }
-
-        .more-info span:hover {
-          cursor: pointer;
-        }
+       .more-info a {
+         color: #333;
+         font-size: 25px;
+         margin: 2px 10px;
+       }
        
        footer {
           background: #333333;
