@@ -1,0 +1,22 @@
+*{
+    font-family: 'Old Standard TT', serif;
+}
+
+
+
+#btn {
+	background-color: #ECECEC; 
+	color: green;
+}
+input:hover{
+	border: 3px solid #32CD32;
+	
+}
+
+#btn:hover{
+	/*background-color:green;*/
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #32CD32; 
+	color: white;
+}
+
